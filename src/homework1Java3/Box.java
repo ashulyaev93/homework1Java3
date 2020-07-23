@@ -3,7 +3,7 @@ package homework1Java3;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Box<T extends Fruit> {
+public class Box<T extends Fruit> { //храним фрукты в аргументах переменной длины;
     private ArrayList<T> items;
 
     public Box(T... items) {
